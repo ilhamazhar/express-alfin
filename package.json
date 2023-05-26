@@ -1,14 +1,38 @@
 {
-  "name": "alfin-template",
+  "name": "nodejs-architecture",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "dev": "nodemon -q -w / main.js",
+    "start": "node --max-old-space-size=4096 main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.16.0"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "bree": "^6.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "helmet": "^7.0.0",
+    "luxon": "^2.3.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "umzug": "^3.1.1",
+    "uuid": "^8.3.2",
+    "zod": "^3.14.4"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "prettier-plugin-organize-imports": "^2.3.4"
   }
 }
