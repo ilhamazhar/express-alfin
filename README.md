@@ -6,6 +6,7 @@ Running:
 
 - Create database in ur local `nodejs_db`;
 - Set db user, db pass, db_port in `config.js`
+- `yarn start`
 
 Notes:
 
@@ -17,5 +18,5 @@ Notes:
 - Coordinator: service layer
 - Controller: routes
 - Test endpoint:
-    - Get all customers: localhost:3000/public/v1/customers
-    - Get customer: localhost:3000/public/v1/customers/${customerId}
+    - Get all customers: `localhost:3000/public/v1/customers`
+    - Get customer: `localhost:3000/public/v1/customers/${customerId}`
