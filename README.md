@@ -6,6 +6,7 @@ Running:
 
 - Create database in ur local `nodejs_db`;
 - Set db user, db pass, db_port in `config.js`
+- `yarn install`
 - `yarn start`
 
 Notes:
